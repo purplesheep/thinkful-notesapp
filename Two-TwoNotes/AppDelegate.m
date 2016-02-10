@@ -6,7 +6,11 @@
 //  Copyright © 2016 Jiang Zhou. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "NotesTableViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +21,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    
+    NotesTableViewController *notesTableViewController = [NotesTableViewController new];
+    
+    
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:notesTableViewController];
+    
+    self.window.rootViewController = navigationController;
+
+    
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "322B255E1C66A1570068038F"
+               BuildableName = "Two-TwoNotes.app"
+               BlueprintName = "Two-TwoNotes"
+               ReferencedContainer = "container:Two-TwoNotes.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "322B25771C66A1570068038F"
+               BuildableName = "Two-TwoNotesTests.xctest"
+               BlueprintName = "Two-TwoNotesTests"
+               ReferencedContainer = "container:Two-TwoNotes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "322B25821C66A1570068038F"
+               BuildableName = "Two-TwoNotesUITests.xctest"
+               BlueprintName = "Two-TwoNotesUITests"
+               ReferencedContainer = "container:Two-TwoNotes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "322B255E1C66A1570068038F"
+            BuildableName = "Two-TwoNotes.app"
+            BlueprintName = "Two-TwoNotes"
+            ReferencedContainer = "container:Two-TwoNotes.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "322B255E1C66A1570068038F"
+            BuildableName = "Two-TwoNotes.app"
+            BlueprintName = "Two-TwoNotes"
+            ReferencedContainer = "container:Two-TwoNotes.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "322B255E1C66A1570068038F"
+            BuildableName = "Two-TwoNotes.app"
+            BlueprintName = "Two-TwoNotes"
+            ReferencedContainer = "container:Two-TwoNotes.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

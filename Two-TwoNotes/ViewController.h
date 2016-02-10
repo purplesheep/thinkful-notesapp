@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Note.h"
 
-@interface ViewController : UIViewController
+@interface ViewController: UIViewController<UITextFieldDelegate>
+
+
+- (id)initWithNote:(Note *)note;
+
 
 
 @end
